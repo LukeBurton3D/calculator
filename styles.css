@@ -6,3 +6,81 @@ body {
     width: 100vw;
     height: 100vh;
 }
+
+.btn {
+    height: 75px;
+    width: 75px;
+    margin: 15px;
+    font-size: 40px;
+}
+
+.number {
+    border: 1px solid lightseagreen;
+    border-radius: 10px;
+}
+
+.number:hover {
+    background-color: lightseagreen;
+}
+
+.operator {
+    border: 1px solid steelblue;
+    border-radius: 10px;
+}
+
+.operator:hover {
+    background-color: steelblue;
+}
+
+.decimal {
+    border: 1px solid gold;
+    border-radius: 10px;
+}
+
+.decimal:hover {
+    background-color: gold;
+}
+
+.equal {
+    border: 1px solid green;
+    border-radius: 10px;
+}
+
+.equal:hover {
+    background-color: green;
+}
+
+.clear {
+    border: 1px solid palevioletred;
+    border-radius: 10px;
+}
+
+.clear:hover {
+    background-color: palevioletred;
+}
+
+.first-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#screen {
+    width: 300px;
+    border: 1px solid salmon;
+    height: 75px;
+    margin: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.previous {
+    font-size: 20px;
+}
+
+.current {
+    font-size: 30px;
+}
